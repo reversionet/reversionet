@@ -1,5 +1,7 @@
 <!-- REVERSIO — GitHub Profile README -->
 
+<div align="center">
+
 ```
 ██████╗ ███████╗██╗   ██╗███████╗██████╗ ███████╗██╗ ██████╗
 ██╔══██╗██╔════╝██║   ██║██╔════╝██╔══██╗██╔════╝██║██╔═══██╗
@@ -9,21 +11,25 @@
 ╚═╝  ╚═╝╚══════╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝
 ```
 
-> **Disassemble. Understand. Own the Binary.**
+### Disassemble. Build. Own the Stack.
+
+</div>
+
+```
+$ whoami
+```
+
+iOS security research, binary analysis, and full-stack development - hands-on, production-grade, no fluff.
+
+We reverse real iOS apps *and* build the tools around them: SSL pinning bypass, ARM64 assembly, jailbreak detection removal, runtime protection stripping - plus the backends, automation, and native apps that turn research into something usable.
+
+Not toy apps. Not sanitized demos. Live targets, real code.
 
 ---
 
-### `$ whoami`
-
-iOS security research & binary analysis — hands-on, production-grade, no fluff.
-
-We reverse real iOS apps so you can study what actually happens inside:  
-SSL pinning bypass, ARM64 assembly, jailbreak detection removal, and runtime protection stripping.  
-Not toy apps. Not sanitized demos. **Live targets.**
-
----
-
-### `$ ls -la ./toolkit`
+```
+$ ls -la ./toolkit
+```
 
 ```
 drwxr-xr-x  ARM64 Assembly        # AArch64 instruction analysis, calling conventions, stack frames
@@ -31,15 +37,29 @@ drwxr-xr-x  SSL Pinning Bypass    # Frida hooks + binary patches for NSURLSessio
 drwxr-xr-x  Jailbreak Detection   # Substrate/Substitute bypass, Cydia file checks, codesign analysis
 drwxr-xr-x  Decrypted IPAs        # Ready to load in IDA Pro, Ghidra, or Radare2
 drwxr-xr-x  Frida Scripts         # Working scripts against real production targets
--rw-r--r--  50+ Reversed Apps     # And counting
+-rw-r--r--  60+ Reversed Apps     # And counting
 ```
 
 ---
 
-### `$ cat ./methodology.txt`
+```
+$ ls -la ./dev
+```
 
-Most security resources teach you *what* to run.  
-We teach you *why it works* — so you can transfer that knowledge anywhere.
+```
+drwxr-xr-x  Swift / Xcode         # Native iOS apps, instrumentation tooling
+drwxr-xr-x  Python Automation     # Scripting, pipeline automation, static/dynamic analysis tooling
+drwxr-xr-x  PHP Backends          # APIs, dashboards, licensing systems
+drwxr-xr-x  HTML / Web            # Landing pages, client panels, lightweight front-ends
+-rw-r--r--  Available for hire    # Dev work built with the same rigor as the RE work
+```
+
+---
+
+`$ cat ./methodology.txt`
+
+Most resources teach you what to run.
+We teach you why it works — and how to build around it — so the knowledge transfers anywhere.
 
 ```asm
 ; Example: certificate validation hook (ARM64)
@@ -50,28 +70,19 @@ We teach you *why it works* — so you can transfer that knowledge anywhere.
 
 ---
 
-### `$ frida-trace --what-we-use`
+`$ cat ./disclaimer`
 
-![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)
-![ARM64](https://img.shields.io/badge/ARM64-AArch64-0078D4?style=flat-square)
-![Frida](https://img.shields.io/badge/Frida-Dynamic_Instrumentation-FF4E00?style=flat-square)
-![IDA Pro](https://img.shields.io/badge/IDA_Pro-Disassembly-6E4AFF?style=flat-square)
-![Ghidra](https://img.shields.io/badge/Ghidra-NSA_SRE-red?style=flat-square)
-![Radare2](https://img.shields.io/badge/Radare2-r2-333333?style=flat-square)
+All resources are provided strictly for educational and authorized security research purposes.
+Build real skills. Use them responsibly.
 
 ---
 
-### `$ cat ./disclaimer`
+`$ open https://reversio.net`
 
-> All resources are provided strictly for **educational and authorized security research** purposes.  
-> Build real skills. Use them responsibly.
+→ **[reversio.net](https://reversio.net)** — Browse the shop, or get in touch for dev work. No account required. Instant access.
 
----
+<div align="center">
 
-### `$ open https://reversio.net`
+**Reversio** · iOS Security Research, Binary Analysis & Development
 
-**→ [reversio.net](https://reversio.net)** — Browse the shop. No account required. Instant access.
-
----
-
-*Reversio · iOS Security Research & Binary Analysis*
+</div>
